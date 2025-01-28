@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    max-width: 1000px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left-part{
+    width: 50%;
+}
+.logo{
+    color: blue;
+    font-size: 48px;
+    font-weight: bold;
+}
+.tagline{
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+}
+.right-part{
+    width: 40%;
+}
+.login-box{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px lightgrey;
+}
+.login-box input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px;
+}
+.login-btn{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: darkgoldenrod;
+}
+.forget-password{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    display: block;
+}
+hr{
+    margin: 20px;
+}
+.create-new-btn{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create-new-btn:hover{
+    background-color: darkgreen;
+}
+.create-page{
+    text-align: center;
+    margin-top: 15px;
+}
+.create-page a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.create-page a:hover{
+    text-decoration: underline;
+}

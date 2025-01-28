@@ -1,0 +1,18 @@
+
+table,tr,thead,tbody{
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid green;
+    background-color: aqua;
+    
+}
+
+th,td{
+    padding: 10px;
+}
+thead{s
+    text-transform: uppercase;
+}
+td:hover{
+    background-color: red;
+}

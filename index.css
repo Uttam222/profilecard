@@ -1,0 +1,40 @@
+/* body{
+    background-color: green; 
+} */
+
+/* types of selectors in CSS */
+                    /* universal selector */
+*{
+    background-color: yellow;
+}
+
+                    /* element selector */
+h3{
+    color: blue;
+}
+
+                    /* class selector */
+.heading4{
+    color:green;
+}
+
+                    /* ID selector */
+#heading5{
+    color:blueviolet;
+}
+
+                    /* group selector */
+p,a{
+    color:violet;
+}
+
+                    /* attribute selector */
+input[type="text"]{
+    border: 1px solid red;
+}
+
+                    /* pseudo class selector */
+a:hover{
+    color: orange;
+}
+
